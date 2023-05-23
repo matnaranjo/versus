@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "293116740880",
+    "project_id": "versus-919aa",
+    "storage_bucket": "versus-919aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293116740880:android:1047b550aca2556068d195",
+        "android_client_info": {
+          "package_name": "com.goom.versus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293116740880-k6lorbh1ln72l0h2tc6cob801nkjc576.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goom.versus",
+            "certificate_hash": "500ee88c2ff88a2d1fd94de229d1ccb0f6a79946"
+          }
+        },
+        {
+          "client_id": "293116740880-6530asg93o3kg8cr9tkthn92bje4k8aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7HcgKHDjfSSlNnTsH9r7A64fHwOd2X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293116740880-6530asg93o3kg8cr9tkthn92bje4k8aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
