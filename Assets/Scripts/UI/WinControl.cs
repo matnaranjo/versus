@@ -9,12 +9,17 @@ public class WinControl : MonoBehaviour
 
     // Change to "Lobby" scene and leave current room
     public void changeToLobby(){
-        SceneManager.LoadScene("Lobby");
-        PhotonNetwork.LeaveRoom();
+        StartCoroutine(change());
     }
 
     public void changeToWaitingRoom(){
         SceneManager.LoadScene("WaitingRoom");
+    }
+
+    IEnumerator change(){
+        yield return new WaitForSeconds(0.8f);
+        SceneManager.LoadScene("Lobby");
+        PhotonNetwork.LeaveRoom();
     }
 
 

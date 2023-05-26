@@ -11,6 +11,11 @@ public class LoseController : MonoBehaviour
 
     // Go to lobby when button clicked
     public void changeScene(){
+        StartCoroutine(change());
+    }
+
+    IEnumerator change(){
+        yield return new WaitForSeconds(0.8f);
         SceneManager.LoadScene("Lobby");
     }
 }

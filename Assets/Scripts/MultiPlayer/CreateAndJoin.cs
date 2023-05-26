@@ -1,7 +1,8 @@
 using UnityEngine.SceneManagement;
+using System.Collections;
+using Photon.Realtime;
 using UnityEngine;
 using Photon.Pun;
-using Photon.Realtime;
 using TMPro;
 
 public class CreateAndJoin : MonoBehaviourPunCallbacks
@@ -63,6 +64,12 @@ public class CreateAndJoin : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         // Wait for players (min 4, max 8)
+        StartCoroutine(SceneChangeCR());
+    }
+
+
+    IEnumerator SceneChangeCR(){
+        yield return new WaitForSeconds(0.8f);
         SceneManager.LoadScene("WaitingRoom");
     }
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GoToGame : MonoBehaviourPunCallbacks
 {
@@ -33,6 +34,11 @@ public class GoToGame : MonoBehaviourPunCallbacks
         }
     }
     public void Play(){
+        StartCoroutine(PlayCR());
+    }
+
+    IEnumerator PlayCR(){
+        yield return new WaitForSeconds(0.8f);
         // start the game scene called "Game" and close the room for more people
         PhotonNetwork.LoadLevel("Game");
         PhotonNetwork.CurrentRoom.IsOpen = false;

@@ -28,7 +28,7 @@ public class NumberOfPlayers : MonoBehaviour
     // Change "players in the room txt" based on the number of players there. 
     void CheckNumberPlayers(){
         int NumPlayers = PhotonNetwork.CurrentRoom.PlayerCount;
-        if (NumPlayers>3){
+        if (NumPlayers>1){
             PlayersTxt.color = goodGreen;
         }
         else {

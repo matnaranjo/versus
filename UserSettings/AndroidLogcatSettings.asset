@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZY22FV36GP",
         "name": "com.goom.versus",
-        "processId": 21355,
+        "processId": 12113,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,43 +11,97 @@
         {
             "deviceId": "ZY22FV36GP",
             "name": "com.goom.versus",
-            "processId": 23636,
-            "exited": true
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.goom.versus",
-            "processId": 27163,
-            "exited": true
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.goom.versus",
-            "processId": 29924,
-            "exited": true
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.goom.versus",
-            "processId": 31998,
-            "exited": true
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.motorola.launcher3",
-            "processId": 30969,
-            "exited": false
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.goom.versus",
-            "processId": 19944,
-            "exited": false
-        },
-        {
-            "deviceId": "ZY22FV36GP",
-            "name": "com.goom.versus",
             "processId": 21355,
+            "exited": true
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 30218,
+            "exited": true
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 1172,
+            "exited": true
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 15609,
+            "exited": true
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.android.settings",
+            "processId": 19955,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 21061,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 25053,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 27167,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 17139,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 19222,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 21659,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 30736,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 825,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 8063,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 10157,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 12113,
             "exited": false
         }
     ],
