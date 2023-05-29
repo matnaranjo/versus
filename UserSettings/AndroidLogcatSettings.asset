@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZY22FV36GP",
         "name": "com.goom.versus",
-        "processId": 12113,
+        "processId": 29537,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -102,6 +102,36 @@
             "deviceId": "ZY22FV36GP",
             "name": "com.goom.versus",
             "processId": 12113,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 2741,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 5444,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 24108,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 30285,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY22FV36GP",
+            "name": "com.goom.versus",
+            "processId": 29537,
             "exited": false
         }
     ],

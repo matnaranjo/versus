@@ -14,7 +14,6 @@ public class ButtonSound : MonoBehaviour
         buttonAudioSource=GetComponent<AudioSource>();
     }
     public void Click(){
-        Debug.Log("cat");
         buttonAudioSource.PlayOneShot(clickSound);
     }
 }

@@ -32,6 +32,7 @@ public class FirebaseLogin : MonoBehaviour
     UserName playerName = new UserName();
 
     public GameObject startBtn;
+    public GameObject creditBtn;
 
     private void Awake()
     {
@@ -101,6 +102,7 @@ public class FirebaseLogin : MonoBehaviour
 
                 // Show start button
                 startBtn.SetActive(true);
+                creditBtn.SetActive(true);
 
             });
         }
