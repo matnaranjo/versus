@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "293116740880-2f7au792jk5ncn9f16tldubsdjce7qvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goom.versus",
+            "certificate_hash": "fbb28eec4963070eb2a644fba66be46a3340d0cc"
+          }
+        },
+        {
+          "client_id": "293116740880-j16uvta3q369f1rvdtrg7nv0tt51umdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goom.versus",
+            "certificate_hash": "bc3bb6ab8f20372cd1a342df59df33b1cbbe7ca6"
+          }
+        },
+        {
           "client_id": "293116740880-k6lorbh1ln72l0h2tc6cob801nkjc576.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

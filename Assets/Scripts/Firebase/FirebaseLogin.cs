@@ -46,6 +46,7 @@ public class FirebaseLogin : MonoBehaviour
 
     void Start()
     {
+        text.text = "aca 1";
         binFunctions = binObject.GetComponent<UserToBin>();
         InitFirebase();
 
@@ -54,11 +55,15 @@ public class FirebaseLogin : MonoBehaviour
 
     void InitFirebase() 
     {
+        text.text = "aca 2";
+
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
     }
 
     public void GoogleSignInClick ()
     {
+        text.text = "aca 3";
+
         GoogleSignIn.Configuration = configuration;
         GoogleSignIn.Configuration.UseGameSignIn = false;
         GoogleSignIn.Configuration.RequestIdToken = true;
@@ -70,30 +75,42 @@ public class FirebaseLogin : MonoBehaviour
 
     void OnGoogleAuthenticatedFinished(Task<GoogleSignInUser> task)
     {
+        text.text = "aca 4";
+        
         if (task.IsFaulted)
         {
-            Debug.LogError("Fault");
+            text.text = "aca 5" + task.Exception;
+
+            Debug.LogError("Fault" + task.Exception);
         }
         else if (task.IsCanceled)
         {
+            text.text = "aca 6";
+
             Debug.LogError("LoginScreen Cancel");
         }
         else
         {
+            text.text = "aca 7";
             Firebase.Auth.Credential credential = Firebase.Auth.GoogleAuthProvider.GetCredential(task.Result.IdToken, null);
             auth.SignInWithCredentialAsync(credential).ContinueWithOnMainThread(task =>
             {
                 if (task.IsCanceled)
                 {
+                    text.text = "aca 8";
+
                     Debug.LogError("SignInWithCredentialAsync was canceled.");
                     return;
                 }
                 if (task.IsFaulted)
                 {
+                    text.text = "aca 9";
+
                     Debug.LogError("SignInwithCredentialAsync encountered an error: " + task.Exception);
                     return;
                 }
                 user = auth.CurrentUser;
+                text.text = user.UserId;
 
                 // Save user and name in binary file
                 binFunctions.SaveUserInfoFirstTime(user.UserId, user.DisplayName);
